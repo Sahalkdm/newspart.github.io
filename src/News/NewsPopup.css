@@ -1,0 +1,112 @@
+.news {
+    width: 850px;
+    height: fit-content;
+    background: bisque;
+    position: fixed;
+    top: 20vh;
+    z-index: 100;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+.news header {
+    padding: 1px 10px;
+    background: rgb(8, 246, 167);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news .heading{
+    display: flex;
+
+}
+.news .heading img{
+      height: 25px;
+}
+.news main {
+    display: flex;
+}
+
+.news .image {
+    width: 45%;
+    height: 400px;
+    
+}
+
+.news .content {
+    width: 55%;
+    height: 400px;
+    background: rgb(251, 251, 252);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news .head {
+    display: flex;
+    align-items: center;
+}
+.news .img {
+    height: 30px;
+}
+.news .content p {
+    font-size: 12px;
+}
+.news .content h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.news footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news footer button {
+   width: 85px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2px 5px;
+   font-size: 18px;
+   font-weight: 400;
+   background: linear-gradient(to bottom,#00cc66 0%, #00ff00 50%, #00cc66 100%);
+   cursor: pointer;
+   border-radius: 5px;
+}
+.news footer button:hover {
+    background: linear-gradient(to bottom right,#33cc33 0%, #009933 50%, #33cc33 100%);
+    box-shadow:0  3px 8px black;
+    color: white;
+ }
+
+.news .closeButton {
+    padding: 2px 12px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px white solid;
+}
+.news .closeButton:hover {
+    color: white;
+    background: red;
+}
+.news footer button img {
+    height: 20px;
+}
+.news footer div {
+    display: flex;
+    align-items: flex-end;
+}
+.news footer div img {
+    height: 25px;
+    margin-left: 10px;
+}
